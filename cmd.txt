@@ -1,5 +1,0 @@
-Write-Host "=== DATASET STRUCTURE ==="; Get-ChildItem "f:\LabBasedProject\g2\dataset" -Recurse -Directory | ForEach-Object { $count = (Get-ChildItem $_.FullName -File -ErrorAction SilentlyContinue | Measure-Object).Count; "$($_.FullName.Replace('f:\LabBasedProject\g2\',''))  ($count files)" }; Write-Host "`n=== REQUIREMENTS ==="; Get-Content "f:\LabBasedProject\g2\requirements.txt"
-
-#command to display the dataset structure and the contents of the requirements.txt file. It lists all directories in the dataset folder along with the count of files in each directory, and then displays the contents of the requirements.txt file.
-
-
