@@ -67,7 +67,7 @@ data/
 dataset/
 logs/
 models/
-ext.py
-curr_dir.txt
-cmd.txt
 check.py
+cmd.txt
+curr_dir.txt
+ext.py
